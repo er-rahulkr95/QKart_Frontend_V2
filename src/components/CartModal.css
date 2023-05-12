@@ -1,0 +1,30 @@
+.modalContainer{
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: 2;
+    background-color: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    padding:0.5rem 1rem 0.5rem 1rem;
+   
+  }
+  .span-text{
+    font-size: larger;
+    font-weight: bolder;
+  }
+  .cart-content{
+    max-height: 40vh;
+    overflow-y: auto;
+  }
+
+  .modal-backdrop{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-color:rgba(0,0,0,0.5);
+    backdrop-filter: blur(0.5rem);
+  }
